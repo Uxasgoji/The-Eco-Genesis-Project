@@ -6,15 +6,76 @@
 </head>
 	
 	<table {
-		   width="50%"
+		   width="30%"
 		   border="10px"
-		   height="200px"
-		   align="center">
+		   height="100px"
+		   align="center" }>
 		<td {
 			text-align="center"
+			}
 			>The Eco-Genesis Project
 		</td>
 		</table>
+	
 <body>
+	<style>
+		p {
+			background-image: url("images/tropical-island-firxdiyy6k75uxlc.jpg");
+		}
+	</style>
+	<style> 
+		.flex-container {
+			display:flex;
+			flex-wrap: wrap;
+			background-color: darkgreen}
+		.flex-container > div {
+			background-color: gold;
+			margin: 10px;
+			padding: 10px;
+			font-size: 20px;
+		}
+		.stack > div {
+			flex-direction: column;
+			padding: 10px
+		}
+		#container {
+			width: 100px;
+			margin: 0 auto;
+		}
+		.section_L {
+			flex-grow: 2;
+		}
+		.section_R {
+			flex-grow: 2;
+		}
+		.flex-responsive {
+			flex: 40%;
+		}
+		
+		@media (max-width: 800px) {
+			#container {
+				width: 70%;
+				margin: 0 auto;
+				background-color: gold;
+			}
+		}
+		.flex-responsive {
+			flex: 100%;
+		}
+	</style>
+	<div class="flex-container">
+		<div class="Row-A">
+			<th class="firstcolumn"><a href="Visiting Options.html">Visiting Options</a></th>
+		</div>
+		<div class="Row-B">
+			<th class="secondcolumn"><a href="Creatures.html">Creatures</a></th>
+		</div>
+		<div>
+			<th class="thridcolumn"><a href="About Us.html">About Us</a></th>
+		</div>
+		<div>
+			<th class="fourthcolumn"><a href="Contacts.html">Contacts</a></th>
+		</div>
+	</div>
 </body>
 </html>
